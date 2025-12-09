@@ -53,11 +53,10 @@ public class PaginationWebTable {
 
 	@Test
 	public void tableUsingTryCatch() {
-		String prod = "Wireless Mouse 20";
+		String prod = "Soundbar";
 		WebDriver driver =  new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.manage().window().maximize();
-		//WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 		driver.get("https://testautomationpractice.blogspot.com/");
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollTo(0, 2700);");

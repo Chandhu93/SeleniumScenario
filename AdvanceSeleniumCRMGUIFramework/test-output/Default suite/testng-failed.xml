@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automtion.Scenario2.CarDheko">
+      <class name="AutomationExePageScenario.TestAutomationPractice">
         <methods>
-          <include name="carVarient"/>
+          <include name="testAuto"/>
         </methods>
-      </class> <!-- automtion.Scenario2.CarDheko -->
+      </class> <!-- AutomationExePageScenario.TestAutomationPractice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
